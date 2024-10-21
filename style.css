@@ -1,0 +1,659 @@
+/* Montserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.custom_btn {
+    padding-top: 16px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    color: #ffffff;
+    background-color: #e93333;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1em;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: none;
+}
+
+/* Header section */
+.home_header {
+    background-image: url(./bg-02-free-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header_about_page {
+    background-image: url(./bg-03-free-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 545px;
+    background-attachment: fixed;
+    
+}
+
+.header_about_page .header_section {
+    position: relative;
+}
+
+.header_about_page .title {
+    position: absolute;
+    left: 50%;
+    top: 400%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* margin-top: 200px; */
+    color: white;
+    font-size: 4.6666666666667rem;
+}
+
+.header_about_page {
+    background-image: url(./bg-03-free-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 545px;
+    background-attachment: fixed;
+    
+}
+
+.header_services_page {
+    background-image: url(./bg-04-free-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 545px;
+    background-attachment: fixed;
+    
+}
+
+.header_services_page .header_section {
+    position: relative;
+}
+
+.header_services_page .title {
+    position: absolute;
+    left: 50%;
+    top: 400%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* margin-top: 200px; */
+    color: white;
+    font-size: 4.6666666666667rem;
+}
+
+.header_projects_page {
+    background-image: url(./bg-05-free-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 545px;
+    background-attachment: fixed;
+    
+}
+
+.header_projects_page .header_section {
+    position: relative;
+}
+
+.header_projects_page .title {
+    position: absolute;
+    left: 50%;
+    top: 400%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* margin-top: 200px; */
+    color: white;
+    font-size: 4.6666666666667rem;
+}
+
+.header_contact_page {
+    background-image: url(./bg-08-free-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 545px;
+    background-attachment: fixed;
+    
+}
+
+.header_contact_page .header_section {
+    position: relative;
+}
+
+.header_contact_page .title {
+    position: absolute;
+    left: 50%;
+    top: 400%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* margin-top: 200px; */
+    color: white;
+    font-size: 4.6666666666667rem;
+}
+
+
+
+
+.home_header .title_section {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 400px;
+}
+
+.home_header .title_section p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.home_header .title_section h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+
+/* About section */
+
+.about_section {
+    padding-top: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+    background-color: #f9f8f8;
+}
+
+.about_section h5 {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.about_section h2 {
+    font-size: 34px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.about_section p {
+    font-weight: inherit;
+    color: #4545459d;
+    font-size: 20px;
+}
+
+/* Services section */
+.services_section {
+    background-image: url(./bg-09-free-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.services_section .left_section {
+    width: 40%;
+    margin-right: 200px;
+}
+
+.services_section .right_section {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.services_section h5 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.services_section h3 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
+}
+
+.services_section .line {
+    width: 570px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.services_section h4 {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.services_section p {
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+.services_section h2 {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.3em;
+    font-size: 34px;
+
+}
+
+/* Projects section */
+.projects_section {
+    padding-top: 130px;
+    padding-bottom: 67px;
+    text-align: center;
+    
+}
+
+.projects_section .heading h5 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.projects_section .heading h2 {
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.projects_section .card_section h4 {
+    font-size: 1.4666666666667rem;
+    font-weight: 700;
+    line-height: 1.85714285714286;
+
+}
+
+.projects_section .card_section p {
+    width: 80%;
+}
+
+.bottom_section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 160px;
+    text-align: center;
+}
+
+.bottom_section h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* Footer section */
+Footer {
+    height: 525px;
+    background-color: #011627;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    
+}
+
+Footer h2 {
+    font-size: 27px;
+    font-weight: 300;
+}
+
+Footer p {
+    line-height: 1.85714285714286;
+    font-size: 19px;
+    margin-top: 35px;
+}
+
+Footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 1.85714285714286;
+}
+
+Footer a:hover {
+    color: #d64843;
+}
+
+Footer .column1 {
+    width: 50%;
+}
+
+Footer .column2 {
+    width: 12%;
+}
+
+Footer .column3 {
+    width: 25%;
+    margin-left: 170px;
+}
+
+Footer .copyright_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* About Page */
+/* ============= */
+/* Main section */
+
+.main_section {
+    padding-top: 154px;
+    background-color: #f9f8f8;
+}
+
+.main_section .first_section {
+    padding-bottom: 150px;
+}
+
+.main_section .first_section .right_section {
+    width: 40%;
+    margin-right: 85px;
+}
+
+.main_section .first_section .right_section h5 {
+    font-size: 1.2rem;
+    font-weight: 700;   
+}
+
+.main_section .first_section .right_section h2 {
+    font-size: 2.2666666666667rem;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.main_section .first_section .left_section h3 {
+    line-height: 1.3em;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.main_section .first_section .left_section p {
+    color: rgba(0, 0, 0, 0.584);
+    font-size: 20px;
+}
+
+.main_section .second_section {
+    padding-top: 150px;
+    padding-bottom: 90px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.main_section .second_section .left_section {
+    width: 30%;
+    margin-right: 130px;
+}
+
+.main_section .second_section .left_section h5 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.main_section .second_section .left_section h2 {
+    font-size: 2.2666666666667rem;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.main_section .second_section .right_section {
+    display: flex;
+    justify-content: end;
+    width: 60%;
+    align-items: center;
+}
+
+.main_section .second_section .right_section .count {
+    margin-right: 70px;
+    text-align: center;
+}
+
+.main_section .second_section .right_section .count .title {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 2.5;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.584);
+}
+
+.main_section .second_section .right_section .value {
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.main_section .third_section {
+    padding-top: 100px;
+    padding-bottom: 225px;
+}
+
+.main_section .third_section .heading h3 {
+    line-height: 1.3em;
+    font-size: 1.7333333333333rem;
+    font-weight: 700;
+}
+
+.main_section .third_section .content .column1 {
+     width: 30%;
+     margin: 0 auto;
+}
+
+.main_section .third_section .content .column2 {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.main_section .third_section .content .column3 {
+    width: 30%;
+    margin-right: 0;
+}
+
+.main_section .third_section .content .column1 h4,
+.main_section .third_section .content .column2 h4 {
+    font-size: 1.4666666666667rem;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.main_section .third_section .content .column1 p,
+.main_section .third_section .content .column2 p {
+    color: rgba(0, 0, 0, 0.443);
+    font-size: 24px;
+}
+
+.main_section .third_section .content .column3 h3 {
+    line-height: 1.3em;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.main_section .about_bottom_section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 160px;
+    padding-bottom: 67px;
+}
+
+.main_section .about_bottom_section h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+/* Services Page */
+/* ============= */
+/* Services main section */
+
+.services_main_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+}
+
+
+.services_main_section .left_section h5 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.services_main_section .left_section h2 {
+    font-size: 2.2666666666667rem;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 38px;
+}
+
+.services_main_section .left_section p {
+    color: rgba(0, 0, 0, 0.443);
+    font-size: 22px;
+}
+
+.services_main_section .right_section {
+    display: flex;
+    justify-content: end;
+}
+
+.services_second_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services_second_section .heading h5 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.services_second_section .heading h2 {
+    font-size: 2.2666666666667rem;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 75px;
+}
+
+.services_second_section .content h4 {
+    font-size: 34px;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.services_second_section .content p {
+    color: rgba(0, 0, 0, 0.443);
+    font-size: 22px;
+}
+
+/* Projects Page */
+/* ============= */
+/* Projects main section */
+
+.projects_main_section {
+    background-color: #f9f8f8;
+}
+
+.projects_main_section .first_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.projects_main_section .first_section h4 {
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.projects_main_section .first_section p {
+    color: rgba(0, 0, 0, 0.443);
+    font-size: 22px;
+    width: 90%;
+}
+
+
+/* Contact Page */
+/* ============= */
+/* Contact main section */
+
+.contact_main_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f9f8f8;
+}
+
+.contact_main_section .left_section h2 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 25px;
+}
+
+.contact_main_section .left_section p {
+    color: rgba(0, 0, 0, 0.443);
+    font-size: 22px;
+}
+
+.contact_main_section .left_section .link_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_main_section .left_section .link_section a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #dc5a59;
+}
+
+.contact_main_section .left_section .link_section a:hover {
+    color: #41534f;
+}
+
+.contact_main_section .left_section .link_section a i {
+    font-size: 22px;
+}
+
+.contact_main_section .left_section h3 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact_main_section .right_section form label {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact_main_section .right_section form label span {
+    color: red;
+}
+
+.contact_main_section .right_section form input {
+    height: 65px;
+}
+
+.contact_main_section .right_section form .text_area {
+    height: 250px;
+}
